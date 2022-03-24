@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Bookstore App</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+
+
+    <body>
+        <h1>Welcome!</h1>
+        <p>This is a bookstore</p>
+        <a href="http://[::1]:5000/admin">Admin</a>
+
+        <div class="container">
+            <h2>Order</h2>
+            
+            <form id="booksform">
+
+                <div class="subcontainer">
+                    <label for="bookname">Book name</label>
+                    <select id="bookname" name="bookname" form="booksform">
+                        <option value="" selected disabled hidden></option>
+                        <option value="A Smile In The Mind.">A Smile In The Mind.</option>
+                        <option value="The Power of Now.">The Power of Now.</option>
+                        <option value="Lean In.">Lean In.</option>
+                        <option value="The Electronic Swagman.">The Electronic Swagman.</option>
+                        <option value="The Brain That Changes Itself.">The Brain That Changes Itself.</option>
+                    </select>
+                </div>
+                    
+
+                <div class="subcontainer">
+                    <label for="booknumber">Quantity</label>
+                    <input type="number" name="amount" id="amount" min="1">    
+                </div>
+
+                
+                <button type="submit" onclick="submitOrder(event)">Submit Order</button>
+
+                <div id="result"></div>
+            </form>
+        </div>
+
+        <script src="./scripts.js"></script>
+    </body>
+
+
+</html>

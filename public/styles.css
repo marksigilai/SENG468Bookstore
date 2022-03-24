@@ -1,0 +1,95 @@
+body{
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 50px;
+}   
+h1{
+    font-size: 40px;
+    margin: 10px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+}
+select{
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+button{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form{
+
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.container{
+    padding: 50px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.subcontainer{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px 20px;
+}
+table{
+    display: flexbox;
+    padding: 20px;
+    margin: auto;
+}
+
+tr{
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    font-size: 16px;
+    margin: 30px;
+    padding: 20px;
+}
